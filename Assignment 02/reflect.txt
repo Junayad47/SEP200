@@ -1,0 +1,31 @@
+
+// Junayad Bin Forhad
+// 160158218
+// 09/08/2022
+
+1.  The given code will not work and will give erroneous results.
+    This is because, 'e' points to the first element, but in the body of the loop, the element to whom, e was pointing gets deleted. So ++e, will be         invalid statement. Therefore, the given code will not work.
+    
+
+
+2.  The given code will work correctly, because, the 'e' points to first element. It then points to the next element, and deletes the previous one using     the statement 'e = wList.erase(e)'. 
+
+    The given code will remove all the elements of the list.
+
+
+
+3.  This list performs searches fast for the elements that are searched frequently. The STL's list, saves the list in the same order as the elements are     inserted. That list has also tail attribute pointing to last element, and backward pointers too. There are also many other functions in the STL's        list, like sort(), reverse(), etc.
+
+    This list is efficient for the cases where we frequently search the same data, and some of the data is searched very less frequently.
+
+
+
+4.  The algorithm is not learning. It is just sorting elements in such a way so that the elements which are searched often are at the beginning of the       list.
+
+    If all elements are searched at same frequency, then the algorithm has no advantage at all.
+    
+    If frequency of searching for some elements is quite high then others, then the algorithm is learning, and is quite useful in this case. If this is      the scenerio, then the algorithm should also be used for other data types
+
+    One more better algorithm is sorting elements and then performing binary search, it will return elements in O(lg n).
+    If there are 1 million elements, it will just take about 20 steps to find the element.
+

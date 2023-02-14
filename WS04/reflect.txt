@@ -1,0 +1,15 @@
+
+//*
+// Sep 200, Professor Mufleh Al-Shatnawi, Ph.D., P.Eng
+// Workshop: 01
+// Student Name: Junayad Bin Forhad
+// Id  : 160158218
+//*
+
+1. Why are you able to use a for-next loop in this example for two different types of parsers?
+
+   Ans: Because we used polymorphism and the functions were same and we inherited data from each one another.
+
+2. The tester for this program hardcodes a UDP packet parser and a TCP packet parser. Describe in general how would you      use an interface (abstract class) that prompts the user for two types of packet parsers?
+
+   Ans: The abstract base class may have more than one abstract methods. The child class must implement all of them          failing which TypeError will be raised. So I'll just implement it to take 2 types of data.

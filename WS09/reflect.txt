@@ -1,0 +1,17 @@
+// Junayad Bin Forhad
+// 160158218
+// 06/08/2022
+
+1.Do you find lambda functions useful? Why or why not?
+  
+  Ans: Lambda can be 6.6x faster to compile than std::bind!. But, Data science particularly benefits from the use of lambda functions. Users can add   functions as optional arguments to various operations in Pandas, the comprehensive data science module for Python. It is difficult to define these   functions in a conventional manner.
+
+
+2.Where are lambda functions best utilized?
+
+  Ans: In order to write simple code without wasting numerous lines defining a function, lambda functions are designed as a shorthand for doing so.   Since they lack a name unless given one, they are also referred to as anonymous functions.
+
+
+3.What are the three components of the Standard Template Library?
+
+  Ans: Containers (often used templatized data structures), iterators, and algorithms make up STL's three main building blocks.

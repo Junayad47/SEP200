@@ -1,0 +1,24 @@
+
+/*
+
+Name: Junayad Bin Forhad
+E-mail: jbin-forhad@myseneca.ca
+Student ID: 160158218
+Date: 21/07/2022
+
+*/
+
+1. In the main() function, the number of players is hardcoded to 2. How could we modify the main() function to let the players decide how many players there are? (0.5 mark)
+
+Ans: The number of players can be increased by increasing the size of the array 'player'. It will require updating 'NUM' variable too, and will involve much comparisons. Comparisons using the loop will be better.
+
+
+2. For this product, compare and contrast polymorphism via the use of inheritance with parametric polymorphism. (1 mark)
+
+Ans: Polymorphism is one of the basic pillars of the OOP. In Polymorphism, an object behaves differently depending on its implementation.
+
+
+3. If we wished to add a nice graphical interface to this program, how would we do it? With C++? By interacting with another program? By adding a library? By using a different language entirely? (0.5 mark)
+
+Ans: We can add the graphical User Interface (GUI) for the game so that it can be played more easily and become user-friendly. There are many method to do it. This can be done using the Model View Controller (MVC) approach much better. If we want to implement it in C++ then the QT library will be quite helpful for this purpose.
+

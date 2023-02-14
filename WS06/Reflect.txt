@@ -1,0 +1,20 @@
+
+Name: Junayad Bin Forhad
+E-mail: jbin-forhad@myseneca.ca
+Student ID: 160158218
+Date: 16/07/2022
+
+
+1. What variable would you add to the hockey team class and to the baseball team class to associate each with the sports    association?
+
+   Ans:	I would add a cast operator.
+
+
+2. If you have a choice, which is better - inheritance or composition?
+   
+   Ans: I would prefer composition because it has much more testing ability than inheritance.
+
+
+3. Why is inheritance, if taken to an extreme, considered unreliable?
+	
+   Ans: Inheritance makes the child and parent classes dependant, which violates encapsulation and modifies the parent       class's attributes.

@@ -1,0 +1,18 @@
+
+//*
+// Name : Junayad Bin Forhad
+// E-mail : jbin-forhad@myseneca.ca
+// Student ID : 160158218
+// Date : 30 / 07 / 2022
+//
+
+1. Do you see any application for lambda functions in C++?
+   Ans: Anonymous function objects (functors) can be defined in C++ Lambda expressions and utilised inline or supplied as arguments.
+
+
+2. Is int a class or an object? Is a in int a; a class or an object?
+   Ans: Object.
+
+3. If you were to create a type or class called complex_number which has all the operations of an int,
+   what operators would you have to overload to create a complex_number class?
+   Ans: Overloading Insertion Operator as a global function is preferable to doing so as a member method.

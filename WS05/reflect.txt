@@ -1,0 +1,17 @@
+
+// Name: Junayad Bin Forhad
+// ID: 160158218
+// Mail: jbin-forhad@myseneca.ca
+// Date: 20/06/2022
+
+1. Describe in general the types of polymorphism in C++.
+   
+   Ans: There are two types of polymorphism in C++, compile-time and run-time polymorphism. Function overloading and         operator overloading are used to achieve compile-time polymorphism. Function overriding is used to achieve run-time       polymorphism.
+
+2. Explain the differences and similarities between parametric polymorphism and adhoc polymorphism.
+
+   Ans: The key difference between parametric polymorphism and overloading (aka ad-hoc polymorphism) is that parameteric     polymorphic functions use one algorithm to operate on arguments of many different types, whereas overloaded functions     may use a different algorithm for each type of argument.
+
+3. Why should templated code be implemented in a header file?
+   
+   Ans: To have all the information available, current compilers tend to require that a template must be fully defined       whenever it is used. That includes all of its member functions and all template functions called from those.          Consequently, template writers tend to place template definition in header files.

@@ -1,0 +1,17 @@
+//
+// Name: Junayad Bin Forhad, 160158218
+// E-mail: jbin-forhad@myseneca.ca
+// Date: 10th August, 2022
+//
+
+1.Why has multiple inheritance been a controversial issue for many years?
+
+Ans: Because of its increased complexity and ambiguity in scenarios like the "diamond problem," where it may be unclear which parent class a certain feature is inherited from if more than one parent class implements said feature, multiple inheritance has been a contentious topic for many years.
+
+2.What solves the "Diamond Problem"?
+
+Ans: Utilizing the virtual keyword will solve the diamond problem. To prevent having two instances of the grandparent class in the kid class, we convert the two parent classes (which descended from the same grandparent class) into virtual classes.
+
+3.Does the "Diamond Problem" actually exist in this workshop? Why or why not?
+
+Ans: <>

@@ -1,0 +1,12 @@
+// Name: Junayad Bin Forhad
+// ID: 160158218
+// Mail: jbin-forhad@myseneca.ca
+// Date: 10/06/2022
+
+1. If all three purchases were of type `DVD`, could `AmazonMain.cpp` use a for-next loop to get all information?
+
+   Ans: Yes, Using dynamic memory allocation and for-next loop it would be pretty easy to collect all the information    writing less code.
+
+2. Since we have a `Book` purchase, a `DVD` purchase, and a `DigitalMusic` purchase, could `AmazonMain.cpp` use a for-next loop to get all information? Why?
+
+   Ans: It is not impossible to do that but it would be a good idea and easy for future improvement and easy to read for    other programmars if we create separate classes for Book, Music and DVD.

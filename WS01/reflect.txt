@@ -1,0 +1,9 @@
+1. Do you prefer the overloading of += and -= (ie *client[0] += 5000; *client[1] -= 5000;) or would you prefer it if InvestmentAccount had functions to add cash and       withdraw cash? Why?
+
+   Ans: Every person has a unique coding style and preference. As long the code is working fine and not creating any laggings or timing issues it's fine. I would    prefer a function rather than using function overloading because I have to write code individually for each client. If i use a function and create a loop I can    easily do it with less work.
+
+2. Do you prefer the overloading of == (ie if (*client[0] == client3) {..} or would you prefer to call a function to compare two clients? Why?
+   Ans: I'd be more comfortable using a function because it will take less coding time and it's easier for me.
+
+3. Why might it be necessary to wipe out all information in the destructor of InvestmentAccount?
+   Ans: If I don't free up the memory I allocated dynamically it will stay in the memory of the operating system and it will cause a data leak. It will eventually slow    down the operating system and it's also a weakness because hackers can gain access to those data and recover the information. Sp destructors are used to clean up    the allocated memory.

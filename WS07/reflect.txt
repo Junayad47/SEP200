@@ -1,0 +1,20 @@
+Name: Junayad Bin Forhad
+E-mail: jbin-forhad@myseneca.ca
+Student ID: 160158218
+Date: 23/07/2022
+
+
+1. How does the std::map build a database? In a linear format or in a tree format?
+   
+   Ans: Maps are included in the C++ STL. Maps are correlated containers that retain components in a certain sequence by         combining key and mapped values. Two mapped values' key cannot be the same. By default, C++ maps store key                values in ascending order.
+
+
+2. How is this format advantageous?
+   
+   Ans: A map provides quick access to the value by utilising the key. This property comes in handy when creating any         type of index or reference. Second, the map assures that a key is unique across the whole data structure, which         really is a great way to avoid data duplication.
+
+
+3. Explain how you could instruct std::map to sort data for non-standard data types.
+   
+   Ans: ><
+
