@@ -1,4 +1,4 @@
-SEP200 - Lab 1: The Bank Manager
+#SEP200 - Lab 1: The Bank Manager
 Due:
 This lab will test your ability to overload operators.
 
